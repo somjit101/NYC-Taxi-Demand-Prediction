@@ -187,6 +187,7 @@ We Have collected all yellow taxi trips data from jan-2015 to dec-2016(Will be u
 
 
 ## Features in the dataset:
+
 <table>
 <tr>
 <th>Field Name</th>
@@ -314,3 +315,16 @@ A code indicating the TPEP provider that provided the record.
 <td>The total amount charged to passengers. Does not include cash tips.</td>
 </tr>
 </table>
+  
+ ## ML Problem Formulation
+  
+<p><b> Time-series forecasting and Regression</b></p>
+<br>
+-<i> To find number of pickups, given location cordinates(latitude and longitude) and time, in the query reigion and surrounding regions.</i>
+<p> 
+To solve the above we would be using data collected in Jan - Mar 2015 to predict the pickups in Jan - Mar 2016.
+</p>
+  
+## Performance metrics
+1. Mean Absolute percentage error.
+2. Mean Squared error.
